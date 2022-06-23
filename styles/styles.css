@@ -12,26 +12,50 @@
   font-weight: 700;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
   background: #fbf7f4;
+
+  outline: 5px solid rgba(255, 99, 78, 0.5);
+  outline-offset: -5px;
 }
 
+/*Шапка сайта*/
 .page-header {
   color: #ffffff;
-  background: #000000;
+  background-color: #000000;
 }
 
 .page-header-logo {
-  background: #81b3d3;
+  width: 139px;
 }
 
-.hotel-search-button {
-  background: #756157;
-  border-radius: 4px;
+.navigation {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 430;
+}
+
+.navigation-user {
+  max-width: 300;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -63,15 +87,25 @@ body {
   border-radius: 4px;
 }
 
+/*Интро*/
+.intro-container {
+  width: 1200px;
+}
+
 .intro {
   color: #000000;
   background: #81b3d3;
-  width: 1200px;
-  height: 485px;
+  width: 458px;
+
   background-repeat: no-repeat;
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
-  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  padding-left: 371px;
+  padding-right: 371px;
+  margin-left: 24px;
+  margin-right: 16px;
 }
 
 .title-index {
@@ -90,6 +124,55 @@ body {
   font-weight: 400;
   line-height: 26px;
   color: #333333;
+}
+
+/*Главная часть*/
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage-number-1 {
+  display: flex;
+}
+
+.unnumbered-parent {
+  display: flex;
+}
+
+.advantage-house {
+  display: flex;
+}
+
+.advantage-food {
+  display: flex;
+}
+
+.advantage-souvenirs {
+  display: flex;
+}
+
+.advantage-number-2 {
+  display: flex;
+  text-align: center;
+}
+
+.advantage-number-3 {
+  display: flex;
+  text-align: center;
+}
+
+.advantage-number-4 {
+  width: 400px;
+  text-align: center;
+  display: flex;
+}
+
+.advantage-number-5 {
+  display: flex;
+  text-align: center;
 }
 
 .advantages-list-numbered {
@@ -124,6 +207,14 @@ body {
   line-height: 21px;
 }
 
+/*ПОИСК ГОСТИНИЦЫ В СЕДОНЕ*/
+
+.hotel-search-container {
+  width: 1200px;
+  display: flex;
+  text-align: center;
+}
+
 .hotel-search-title {
   font-family: "PT Sans", sans-serif;
   text-align: center;
@@ -152,11 +243,17 @@ body {
   text-transform: uppercase;
 }
 
+/*Рассылка */
+.newsletter-container {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
 .newsletter {
   background-image: url("../images/footer-images/footer-background.jpg");
   background-repeat: no-repeat;
   width: 1200px;
-  height: 411px;
   background-size: 100% auto;
 }
 
@@ -182,6 +279,10 @@ body {
   line-height: 26px;
 }
 
+/*Контакты*/
+.contacts-container {
+}
+
 .footer-contacts {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -191,6 +292,8 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+/*Каталог */
 
 .inner-header-title {
   font-family: "PT Sans", sans-serif;
