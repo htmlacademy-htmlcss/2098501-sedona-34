@@ -43,10 +43,12 @@ body {
 
 .navigation-list {
   width: 390px;
+  list-style-type: none;
 }
 
 .navigation-user {
   width: 290px;
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -141,6 +143,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+
   padding-top: 92px;
   padding-left: 85px;
   padding-right: 85px;
@@ -162,6 +165,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 1200px;
+  list-style-type: none;
 }
 
 .advantage-item {
@@ -171,6 +175,10 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
   padding-top: 80px;
   padding-left: 85px;
   padding-right: 85px;
@@ -188,6 +196,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+
   padding-top: 92px;
   padding-left: 85px;
   padding-right: 85px;
@@ -410,10 +419,12 @@ body {
 
 .navigation-list {
   width: 390px;
+  list-style-type: none;
 }
 
 .navigation-user {
   width: 290px;
+  list-style-type: none;
 }
 
 .navigation-link {
@@ -447,11 +458,19 @@ body {
 }
 
 /*Найдено гостиниц*/
+.breadcrumbs {
+  list-style-type: none;
+}
+
 .catalog-filters {
   display: flex;
   flex-direction: column;
   padding: 70px;
   padding-top: 35px;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
 }
 
 .catalog-products {
@@ -492,7 +511,7 @@ body {
 .pagination {
   display: flex;
   flex-direction: row;
-
+  list-style-type: none;
   padding-top: 96px;
   padding-right: 71px;
   padding-bottom: 25px;
