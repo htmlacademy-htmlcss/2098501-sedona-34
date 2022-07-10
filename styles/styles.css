@@ -192,7 +192,7 @@ body {
 .advantage-number-1 {
   text-align: center;
 
-  padding: 36px 85px 92px 85px;
+  padding: 56px 85px 92px 85px;
   background-color: #82b3d3;
   color: #ffffff;
 }
@@ -205,6 +205,9 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+}
+.advantage__number {
+  margin-top: 19px;
 }
 .advantage__description {
   font-family: "PT Sans", sans-serif;
@@ -292,6 +295,7 @@ body {
   text-align: center;
   background-color: #82b3d3;
   color: #ffffff;
+  margin-bottom: 5px;
 }
 .advantages-list {
   display: flex;
@@ -300,6 +304,8 @@ body {
   list-style-type: none;
   text-align: center;
   margin: 0;
+  padding: 0;
+  margin-top: -5px;
 }
 
 .advantage-number-3 {
@@ -360,6 +366,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 /*ПОИСК ГОСТИНИЦЫ В СЕДОНЕ*/
@@ -517,6 +524,8 @@ button {
   margin-bottom: 35px;
   margin-left: 70px;
 
+  width: 142px;
+  gap: 19px;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -531,6 +540,7 @@ button {
   text-align: center;
   text-transform: uppercase;
 
+  width: 720px;
   display: flex;
   flex-direction: row;
 
@@ -547,14 +557,14 @@ button {
 
   padding-top: 5px;
   padding-right: 195px;
-  padding-left: 195px;
+  padding-left: 143px;
   padding-bottom: 5px;
 }
 .academy-logo {
   margin-top: 48px;
   margin-right: 70px;
   margin-bottom: 38px;
-  margin-left: 41px;
+  margin-left: -59px;
 }
 
 .modal-container {
@@ -745,4 +755,8 @@ button {
   color: #ffffff;
   background-color: #82b3d3;
   text-decoration: none;
+}
+.select-control-hotels {
+  width: 160px;
+  height: 49px;
 }
